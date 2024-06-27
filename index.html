@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Woo</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <button class="nav-burger" type="button" id="navToggle">
+                <span class="nav-burger-item"></span>
+            </button>
+            <a href="#" class="header-logo">
+                <img src="images/icons/logo.png" alt="Logo">
+            </a>
+            <div class="header-nav">
+                <ul class="header-links">
+                    <li class="header-link">
+                        <a href="#">Уборка</a>
+                    </li>
+                    <li class="header-link">
+                        <a href="#">Генеральная уборка</a>
+                    </li>
+                    <li class="header-link">
+                        <a href="#">После ремонта</a>
+                    </li>
+                    <li class="header-link">
+                        <a href="#">Мытье окон</a>
+                    </li>
+                    <li class="header-link">
+                        <a href="#">Уборка</a>
+                    </li>
+                    <li class="header-link">
+                        <a href="#">Химчистка</a>
+                    </li>
+                    <li class="header-link">
+                        <a href="#">Для бизнеса</a>
+                    </li>
+                </ul>
+                <div class="header-socials">
+                    <a href="#" class="header-socials-link tg">
+                        <img src="images/icons/tg.png" alt="Plane">
+                    </a>
+                    <a href="#" class="header-socials-link wapp">
+                        <img src="images/icons/wapp.png" alt="What's App">
+                    </a>
+                    <a href="#" class="header-socials-link phone">
+                        <img src="images/icons/phone.png" alt="Phone">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="main">
+    <div class="container">
+        <div class="main-inner">
+            <div class="main-small-image">
+                <img src="images/small-main.png" alt="Woman">
+            </div>
+            <div class="main-big-image">
+                <img src="images/main.png" alt="Woman">
+            </div>
+            <div class="main-content">
+                <h1 class="main-content-title title">Генеральная уборка в Санкт-Петербурге</h1>
+                <h3 class="main-content-subtitle">Отмоем то, что давно не мыли. Дотянемся туда, куда давно
+                    не дотягивались</h3>
+                <div class="select-inner">
+                    <div class="select-inner-row">
+                        <div class="custom-select custom-select">
+                            <span>Место</span>
+                            <select name="Место" id="" style="width: 300px;">
+                                <option value="0">Выберите</option>
+                                <option value="1">Квартира</option>
+                                <option value="2">Дом</option>
+                                <option value="3">Студия</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="select-inner-row">
+                        <div class="counter" data-counter="">
+                            <div class="counter-button counter-button-minus">-</div>
+
+                            <div class="counter-input">
+                                <span>Площадь</span>
+                                <input type="text" disabled value="0">
+                            </div>
+                            <div class="counter-button counter-button-plus">+</div>
+                        </div>
+                    </div>
+                    <div class="select-inner-row">
+                        <div class="custom-select small-select">
+                            <span>Комнаты</span>
+                            <select name="Комнаты" id="" style="width: 300px;">
+                                <option value="0">Выберите</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="custom-select small-select">
+                            <span>Санузлы</span>
+                            <select name="Санузлы" id="" style="width: 300px;">
+                                <option value="0">Выберите</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="button button-desk">6900 — 11500 ₽ • Уточнить</button>
+                </div>
+                <div class="main-items">
+                    <div class="main-item">
+                        <div class="main-item-image">
+                            <img src="images/icons/game.png" alt="Game">
+                        </div>
+                        <div class="main-item-text">Отмоем то, что давно не мыли. Дотянемся туда, куда давно не
+                            заглядывали
+                        </div>
+                    </div>
+                    <div class="main-item">
+                        <div class="main-item-image">
+                            <img src="images/icons/smile.png" alt="Smile">
+                        </div>
+                        <div class="main-item-text">Сами пользуемся и делаем сервис так, как хотели бы для себя</div>
+                    </div>
+                    <div class="main-item">
+                        <div class="main-item-image">
+                            <img src="images/icons/game.png" alt="Game">
+                        </div>
+                        <div class="main-item-text">Отработанная технология уборки и <a href="#">чек-лист</a>
+                            для проверки качества работы
+                        </div>
+                    </div>
+                    <div class="main-item">
+                        <div class="main-item-image">
+                            <img src="images/icons/woman.png" alt="Woman">
+                        </div>
+                        <div class="main-item-text">Внимательно подбираем и обучаем людей, с которыми работаем</div>
+                    </div>
+                    <div class="main-item">
+                        <div class="main-item-image">
+                            <img src="images/icons/bucket.png" alt="Bucket">
+                        </div>
+                        <div class="main-item-text">Отработанная технология уборки и <a href="#">чек-лист</a>
+                            для проверки качества работы
+                        </div>
+                    </div>
+                    <div class="main-item">
+                        <div class="main-item-image">
+                            <img src="images/icons/smile.png" alt="Smile">
+                        </div>
+                        <div class="main-item-text">Сами пользуемся и делаем сервис так, как хотели бы для себя</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="clean">
+    <div class="container">
+        <div class="clean-content">
+            <h2 class="clean-content-title title">Чек-лист генеральной уборки</h2>
+            <div class="custom-select">
+                <span>Для</span>
+                <select name="Все комнаты" id="" style="width: 300px;">
+                    <option value="0">Выберите</option>
+                    <option value="1">Кухня</option>
+                    <option value="2">Санузлы</option>
+                    <option value="3">Дополнительно</option>
+                </select>
+            </div>
+            <div class="clean-inner">
+                <div class="clean-item">
+                    <h4 class="clean-item-title"></h4>
+                    <div class="clean-item-desc">
+                        <div class="clean-item-name">Cтандартная уборка</div>
+                        <div class="clean-item-name">Генеральная уборка</div>
+                        <div class="clean-item-name">После ремонта</div>
+                    </div>
+                </div>
+                <div class="clean-item">
+                    <h4 class="clean-item-title">Протираем открытые горизонтальные <br> поверхности</h4>
+                    <div class="clean-item-desc">
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-item">
+                    <h4 class="clean-item-title">Мытье окон</h4>
+                    <div class="clean-item-desc">
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-item">
+                    <h4 class="clean-item-title">Однорамное окно</h4>
+                    <div class="clean-item-desc">
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-item">
+                    <h4 class="clean-item-title">Однорамный балконный <br> блок</h4>
+                    <div class="clean-item-desc">
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-item">
+                    <h4 class="clean-item-title">Двухрамный балконный <br> блок</h4>
+                    <div class="clean-item-desc">
+                        <div class="clean-item-image">
+                            <img src="images/icons/circle.png" alt="Circle">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-item">
+                    <h4 class="clean-item-title">Панорамное остекление</h4>
+                    <div class="clean-item-desc">
+                        <div class="clean-item-image">
+                            <img src="images/icons/cross.png" alt="Cross">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-item">
+                    <h4 class="clean-item-title">Балконная дверь</h4>
+                    <div class="clean-item-desc">
+                        <div class="clean-item-image">
+                            <img src="images/icons/cross.png" alt="Cross">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-item">
+                    <h4 class="clean-item-title">Двухрамное окно</h4>
+                    <div class="clean-item-desc">
+                        <div class="clean-item-image">
+                            <img src="images/icons/cross.png" alt="Cross">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/cross.png" alt="Cross">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-item">
+                    <h4 class="clean-item-title">Остекление по пояс</h4>
+                    <div class="clean-item-desc">
+                        <div class="clean-item-image">
+                            <img src="images/icons/cross.png" alt="Cross">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/cross.png" alt="Cross">
+                        </div>
+                        <div class="clean-item-image">
+                            <img src="images/icons/check.png" alt="Check">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="questions">
+        <div class="questions-wrap">
+            <div class="questions-content">
+                <h2 class="questions-content-title title">Частые вопросы</h2>
+                <div class="questions-accordion">
+                    <div class="questions-acc-item open" data-collapse="#acc1">
+                        <div class="questions-acc-title">
+                            <span>Что входит в уборку?</span>
+                            <img src="images/icons/arrow.png" alt="Arrow" class="acc-content-image">
+                        </div>
+                        <div class="questions-acc-text" id="acc1">Удаляем пыль и бытовые загрязнения со всех горизонтальных
+                            поверхностей в квартире, пылесосим и моем полы, чистим сантехнику и ванну, моем кухонные
+                            поверхности, очищаем фартук и плиту снаружи, пылесосим мебель и ковры. Смотрите полный <a
+                                    href="#">чек-лист уборки.</a>
+                        </div>
+                    </div>
+                    <div class="questions-acc-item" data-collapse="#acc2">
+                        <div class="questions-acc-title">
+                            <span>Какие средства и инвентарь вы используете?</span>
+                            <img src="images/icons/arrow.png" alt="Arrow" class="acc-content-image">
+                        </div>
+                        <div class="questions-acc-text" id="acc2">Удаляем пыль и бытовые загрязнения со всех горизонтальных
+                            поверхностей в квартире, пылесосим и моем полы, чистим сантехнику и ванну, моем кухонные
+                            поверхности, очищаем фартук и плиту снаружи, пылесосим мебель и ковры. Смотрите полный <a
+                                    href="#">чек-лист уборки.</a>
+                        </div>
+                    </div>
+                    <div class="questions-acc-item" data-collapse="#acc3">
+                        <div class="questions-acc-title">
+                            <span>Что, если вы что-нибудь сломаете? </span>
+                            <img src="images/icons/arrow.png" alt="Arrow" class="acc-content-image">
+                        </div>
+                        <div class="questions-acc-text" id="acc3">Удаляем пыль и бытовые загрязнения со всех горизонтальных
+                            поверхностей в квартире, пылесосим и моем полы, чистим сантехнику и ванну, моем кухонные
+                            поверхности, очищаем фартук и плиту снаружи, пылесосим мебель и ковры. Смотрите полный <a
+                                    href="#">чек-лист уборки.</a>
+                        </div>
+                    </div>
+                    <div class="questions-acc-item" data-collapse="#acc4">
+                        <div class="questions-acc-title">
+                            <span>Как работает абонемент?</span>
+                            <img src="images/icons/arrow.png" alt="Arrow" class="acc-content-image">
+                        </div>
+                        <div class="questions-acc-text" id="acc4">Удаляем пыль и бытовые загрязнения со всех горизонтальных
+                            поверхностей в квартире, пылесосим и моем полы, чистим сантехнику и ванну, моем кухонные
+                            поверхности, очищаем фартук и плиту снаружи, пылесосим мебель и ковры. Смотрите полный <a
+                                    href="#">чек-лист уборки.</a>
+                        </div>
+                    </div>
+                    <div class="questions-acc-item" data-collapse="#acc5">
+                        <div class="questions-acc-title">
+                            <span>Как происходит оплата?</span>
+                            <img src="images/icons/arrow.png" alt="Arrow" class="acc-content-image">
+                        </div>
+                        <div class="questions-acc-text" id="acc5">Удаляем пыль и бытовые загрязнения со всех горизонтальных
+                            поверхностей в квартире, пылесосим и моем полы, чистим сантехнику и ванну, моем кухонные
+                            поверхности, очищаем фартук и плиту снаружи, пылесосим мебель и ковры. Смотрите полный <a
+                                    href="#">чек-лист уборки.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="question-image">
+                <img src="images/small-girl.png" alt="Girl">
+            </div>
+        </div>
+</section>
+
+
+<footer class="footer-mobile">
+    <div class="container">
+        <div class="footer-mobile-inner">
+            <div class="footer-mobile-item">
+                <p class="footer-mobile-desc">Отвечаем на звонки и сообщения каждый день с 10:00 до 19:00. Заказы
+                    принимаем круглосуточно</p>
+            </div>
+            <div class="footer-mobile-item">
+                <ul class="footer-mobile-links">
+                    <li class="footer-mobile-link">
+                        <a href="#">Пользовательское соглашение</a>
+                    </li>
+                    <li class="footer-mobile-link">
+                        <a href="#"> Политика обработки данных</a>
+                    </li>
+                    <li class="footer-mobile-link">
+                        <a href="#"> Работа в Ву</a>
+                    </li>
+                    <li class="footer-mobile-link">
+                        <a href="#">© Ву</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="button">6900 — 11500 ₽ • Уточнить</button>
+        </div>
+    </div>
+</footer>
+
+<div class="footer-desk">
+    <div class="container">
+        <div class="footer-desk-inner">
+            <div class="footer-desk-item">
+                <div class="footer-desk-town">Санкт-Петербург</div>
+                <div class="footer-desk-links">
+                    <a href="#" class="footer-desk-link">Уборка для дома</a>
+                    <a href="#" class="footer-desk-link">Уборка для бизнеса</a>
+                    <a href="#" class="footer-desk-link">Генеральная уборка</a>
+                    <a href="#" class="footer-desk-link">После ремонта</a>
+                    <a href="#" class="footer-desk-link">Мойка окон</a>
+                    <a href="#" class="footer-desk-link">Химчистка мебели</a>
+                    <a href="#" class="footer-desk-link">Стейджинг</a>
+                </div>
+                <div class="footer-desk-politic">
+                    <a href="#">Пользовательское соглашение</a>
+                    <a href="#">© 2014 — 2022 Ву</a>
+                </div>
+            </div>
+            <div class="footer-desk-item">
+                <div class="footer-desk-faq">
+                    <a href="#">Частые вопросы</a>
+                    <a href="#">Стать исполнителем</a>
+                    <a href="#">О компании</a>
+                    <a href="#">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
